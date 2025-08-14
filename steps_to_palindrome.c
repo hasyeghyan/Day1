@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "functions.h"
 
 int stepsToPalindrome(long num) {
     if (num < 0) {
