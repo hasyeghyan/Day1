@@ -5,6 +5,7 @@ int fib(int n, int arr[], int size){
        return n;
     if(!arr[n]){
       arr[n] = fib(n - 1, arr, size) + fib(n - 2, arr, size);
+      return arr[n];
     }
     else
       return arr[n];
